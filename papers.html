@@ -11,7 +11,7 @@ picture: liqian
       <li> <a href="https://scholar.google.com/citations?user=IFaNriYAAAAJ&hl=zh-CN">
         <img src="img/ico/gs.png" alt=""/>
       Google scholar listing </a>  </li>
-      <li> <a href=#papers> <img src="img/ico/paper_icon.png" alt=""/> Research papers</a> </li>
+<!--       <li> <a href=#papers> <img src="img/ico/paper_icon.png" alt=""/> Research papers</a> </li> -->
 <!--       <li> <a href=#theses> <img src="img/ico/thesis_icon.jpeg" alt=""/> Theses (PhD and MSc) </a> </li>
       <li> <a href=#talks>  <img src="img/ico/talk_icon.png" alt=""/>  Talks </a> </li>
       <li> <a href=https://ntunlpsg.github.io/resources/>  <img src="img/ico/github_icon.png" alt=""/>  Codes and Demos </a> </li> -->
@@ -28,9 +28,6 @@ picture: liqian
 
 <h4> <a name="papers"></a>  Research papers (journals, confereces, workshops)</h4>
 
-All papers have been subject to peer review unless indicated otherwise. * indicates equal contributions. <font color="FF0000"> You can find most of the codes in the <a href=https://ntunlpsg.github.io/resources/> NLP group page </a> </font>
-
-
  {%assign  years = site.data.papers | group_by :"year" | sort: "title" | reverse %}
  {% for year in years %}
   <h5> {{year.name}}</h5>
@@ -39,7 +36,7 @@ All papers have been subject to peer review unless indicated otherwise. * indica
   {% endfor %}
 {% endfor %}
 
-<h4> <a name="theses"></a> Theses </h4>
+<!-- <h4> <a name="theses"></a> Theses </h4>
 
  {%assign  years = site.data.theses | group_by :"year" | sort: "title" | reverse %}
  {% for year in years %}
@@ -51,7 +48,7 @@ All papers have been subject to peer review unless indicated otherwise. * indica
 
 <h4> <a name="talk"></a> Talks </h4>
 
-will update soon!
+will update soon! -->
 
 
 <!--
