@@ -1,5 +1,5 @@
-Code for my website, at https://raihanjoty.github.io.
-It is a fork from Adam Lopez's at https://alopez.github.io
+Code for my website, at https://feiwangyuzhou.github.io.
+It is a fork from raihanjoty's at https://raihanjoty.github.io
 
 
 
