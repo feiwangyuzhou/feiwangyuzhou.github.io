@@ -47,7 +47,7 @@ work:
   title: Assistant professor
   office: 
   email: feiwangyuzhou_at_foxmail_dot_com
-  phone: +65 
+  phone: +86 
 
   department:
     url: https://cfair.sdu.edu.cn/
@@ -79,7 +79,7 @@ work:
       {% if page.scholar.id %}<a href="http://scholar.google.com/citations?user={{ page.scholar.id }}">
         <img src="img/ico/gs.png" alt=""/>
       </a> Google Scholar<br/>{% endif %}
-      {if page.github.id } <a href="http://github.com/{{ page.github.id }}">
+      {% if page.github.id %} <a href="http://github.com/{{ page.github.id }}">
         <img src="img/ico/github_icon.png" alt=""/>
       </a> Github {% endif %}
     </div>
