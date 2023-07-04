@@ -16,7 +16,7 @@ github:
   id: feiwangyuzhou
 
 work:
-  title: Visiting Phd
+<!--   title: Visiting Phd
   title2: Phd student
   office: Xinxi B
   office2: Block N4
@@ -24,9 +24,9 @@ work:
   email2: feiwangyuzhou_at_foxmail_dot_com 
   phone: +65 
   phone2: +65
-  cell:  +65
+  cell:  +65 -->
 
-  group:
+<!--   group:
     url: https://ntunlpsg.github.io/#about
     url2: https://www.neu.edu.cn
     name: NTU Natural Language Processing Group
@@ -38,8 +38,25 @@ work:
 
   university:
     url: http://www.ntu.edu.sg
-    name: Nanyang Technological University, Singapore
+    name: Nanyang Technological University, Singapore -->
 ---
+
+
+
+
+  title: Assistant professor
+  office: 
+  email: feiwangyuzhou_at_foxmail_dot_com
+  phone: +65 
+
+  department:
+    url: https://cfair.sdu.edu.cn/
+    name: Joint SDU-NTU Centre for Artificial Intelligence Research (C-FAIR)
+
+  university:
+    url: https://www.sdu.edu.cn
+    name: Shandong University, China
+
 
 <div class="page-header">
   <div class="row">
@@ -51,7 +68,7 @@ work:
     <div class="col-sm-6">
       <address>
         {{ page.work.title }}<br/>
-        <a href="{{ page.work.group.url }}">{{ page.work.group.name }}</a><br/>
+<!--         <a href="{{ page.work.group.url }}">{{ page.work.group.name }}</a><br/> -->
         <a href="{{ page.work.department.url }}">{{ page.work.department.name }}</a><br/> 
         <a href="{{ page.work.university.url }}">{{ page.work.university.name }}</a><br/>
       </address>
@@ -62,14 +79,14 @@ work:
       {% if page.scholar.id %}<a href="http://scholar.google.com/citations?user={{ page.scholar.id }}">
         <img src="img/ico/gs.png" alt=""/>
       </a> Google Scholar<br/>{% endif %}
-      {% if page.github.id %} <a href="http://github.com/{{ page.github.id }}">
+      {if page.github.id } <a href="http://github.com/{{ page.github.id }}">
         <img src="img/ico/github_icon.png" alt=""/>
       </a> Github {% endif %}
     </div>
   </div>
 </div>
 
-  <div class="row">
+<!--   <div class="row">
     <div class="col-sm-6">
       <address>
         {{ page.work.title2 }} <br/> 
@@ -80,7 +97,7 @@ work:
       <a href="mailto:{{ page.work.email2 }}"><span class="glyphicon glyphicon-envelope"></span></a> Email<br/>
       <a href="tel:{{ page.work.phone2 }}"><span class="glyphicon glyphicon-phone"></span>Phone</a><br/>
     </div>
-  </div>
+  </div> -->
 
 
 <div class="row">
